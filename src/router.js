@@ -5,17 +5,17 @@ import User from './User.vue';
 
 const routes = [
   {
-    path: '/',
+    path: '/Vue-Task2/',
     name: 'home',
     component: Home
   },
   {
-    path: '/about',
+    path: '/Vue-Task2/about',
     name: 'about',
     component: About,
     children: [
       {
-        path: 'user/:userId',
+        path: '/Vue-Task2/user/:userId',
         name: 'user',
         component: User,
         props: true
